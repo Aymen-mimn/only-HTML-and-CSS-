@@ -4,12 +4,11 @@
   box-sizing: border-box;
 }
 
-.all {
-  height: 100vh;
+body {
   background-color: hsl(0, 0%, 8%);
   padding: 60px;
 }
-.all .container {
+body .container {
   width: 260px;
   height: 460px;
   text-align: center;
@@ -18,12 +17,12 @@
   border-radius: 13px;
   background-color: hsl(0, 0%, 12%);
 }
-.all .container img {
+body .container img {
   border-radius: 50%;
   width: 70px;
   margin-top: 20px;
 }
-.all .container .jessica {
+body .container .jessica {
   font-size: 19px;
   color: hsl(0, 0%, 100%);
   margin-top: 18px;
@@ -31,27 +30,27 @@
   font-weight: 700;
   letter-spacing: 0.6px;
 }
-.all .container .london {
+body .container .london {
   color: hsl(75, 94%, 57%);
   margin-top: 7px;
   font-family: "inter";
   font-size: 12px;
   font-weight: 600;
 }
-.all .container .front {
+body .container .front {
   color: rgb(212, 212, 212);
   margin-top: 20px;
   font-family: "inter";
   font-size: 11px;
   font-weight: 400;
 }
-.all .container .social {
+body .container .social {
   margin-top: 20px;
   width: 85%;
   margin-left: auto;
   margin-right: auto;
 }
-.all .container .social a {
+body .container .social a {
   padding: 12px;
   height: 37px;
   font-family: "inter";
@@ -64,11 +63,11 @@
   background-color: hsl(0, 0%, 20%);
   border-radius: 7px;
 }
-.all .container .social a:hover {
+body .container .social a:hover {
   background-color: hsl(75, 94%, 57%);
   color: hsl(0, 0%, 8%);
 }
-.all .attribution {
+body .attribution {
   position: absolute;
   bottom: 4%;
   margin-left: auto;
